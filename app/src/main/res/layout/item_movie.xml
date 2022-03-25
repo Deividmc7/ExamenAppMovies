@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_item_movie"
+    android:layout_width="@dimen/card_item_movie_width"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/card_item_margin"
+    app:cardCornerRadius="@dimen/card_radious">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/item_movie_poster"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_item_movie_height"
+            android:background="@color/black"
+            android:contentDescription="@string/poster_movie"/>
+
+        <TextView
+            android:id="@+id/item_movie_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:ellipsize="end"
+            android:textSize="18sp"
+            android:maxLines="1"
+            android:textAppearance="?attr/textAppearanceSubtitle2"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            tools:text="Titulo de la pelicula" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.google.android.material.card.MaterialCardView>

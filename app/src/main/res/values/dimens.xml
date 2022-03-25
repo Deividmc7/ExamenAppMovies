@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_item_movie_width">128dp</dimen>
+    <dimen name="card_item_movie_height">172dp</dimen>
+    <dimen name="card_item_margin">8dp</dimen>
+    <dimen name="card_radious">4dp</dimen>
+    <dimen name="marginBgEffect">300dp</dimen>
+</resources>

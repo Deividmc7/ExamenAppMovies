@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ExamenAppMovies</string>
+    <string name="popular">Populares</string>
+    <string name="latest">Más recientes</string>
+    <string name="most_popular_movies">Peliculas populares</string>
+    <string name="latest_movies">Peliculas nuevas</string>
+    <string name="error_fetch_movies">Porfavor compruebatu conexión a internet</string>
+    <string name="top_rated">Más visto</string>
+    <string name="highest_rated_movies">Mas lo visto todo el tiempo</string>
+    <string name="upcoming">Proximamente</string>
+    <string name="stay_updated">Manténgase actualizado con las últimas películas.</string>
+    <string name="poster_movie">"Poster "</string>
+    <string name="bg_home">Imagen especimen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="arg_id">key_id</string>
+</resources>
